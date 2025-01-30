@@ -45,20 +45,18 @@ chmod +x script.sh
 
 ### Крок 1: Перевірте чи встановлений у вас Docker, якщо ні зверніться на офіціальний сайт
 Перевірка версії Docker:
-    ```bash
-    sudo docker --version
-    cd script
-    ```
+```bash
+sudo docker --version
+```
 
 ### Крок 2: Щоб створити Docker образ, виконайте команду:
-    ```bash
-    sudo docker build -t my_script .
-    ```
+```bash
+sudo docker build -t my_script .
+```
 
 ### Крок 3: Запуск Docker контейнера
-    ```bash
-    sudo docker run -it --rm my_script
-
-    ```
+```bash
+sudo docker run -it --rm my_script
+```
 
 
